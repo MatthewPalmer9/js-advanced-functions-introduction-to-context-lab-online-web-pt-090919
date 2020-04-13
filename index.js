@@ -17,7 +17,7 @@ function createEmployeeRecords(info){
 function createTimeInEvent(record, date){
   let timeInEvent = {
     type: "TimeIn",
-    date: date.split(" ")[0]
+    date: date.split(" ")[0],
     hour: parseInt(date.split(" ")[1])
   }
 }

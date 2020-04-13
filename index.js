@@ -48,5 +48,5 @@ function wagesEarnedOnDate(empRecord, date){
 }
 
 function allWagesFor(empRecord){
-  
+  empRecord.time
 }

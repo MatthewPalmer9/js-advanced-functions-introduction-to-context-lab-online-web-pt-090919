@@ -49,5 +49,5 @@ function wagesEarnedOnDate(empRecord, date){
 
 function allWagesFor(empRecord){
   const datesWorked = empRecord.timeInEvents.map(event => event.date)
-  const wagesOnDatesWorked = empRecord.
+  const wagesOnDatesWorked = datesWorked.map()
 }

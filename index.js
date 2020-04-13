@@ -17,6 +17,6 @@ function createEmployeeRecords(info){
 function createTimeInEvent(){
   let timeInEvent = {
     type: "TimeIn",
-    date: 
+    date: parseInt(date)
   }
 }

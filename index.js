@@ -18,5 +18,6 @@ function createTimeInEvent(){
   let timeInEvent = {
     type: "TimeIn",
     date: date.split(" ")[0]
+    
   }
 }

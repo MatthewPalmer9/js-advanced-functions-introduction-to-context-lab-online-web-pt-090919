@@ -41,4 +41,7 @@ function hoursWorkedOnDate(empRecord, date){
   return hoursWorked
 }
 
-function wagesEarnedOnDate(empRecord, date)
+function wagesEarnedOnDate(empRecord, date){
+  
+  return payOwed
+}

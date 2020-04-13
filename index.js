@@ -11,5 +11,5 @@ function createEmployeeRecord([firstName, familyName, title, payPerHour]){
 }
 
 function createEmployeeRecords(info){
-  return info.map()
+  return info.map(createEmployeeRecord)
 }

@@ -54,3 +54,6 @@ function allWagesFor(empRecord){
     return totalWages
 }
 
+function findEmployeeByFirstName(employeeRecords, firstName) {
+    return employeeRecords.find(record => record.firstName === firstName)
+}

@@ -53,3 +53,4 @@ function allWagesFor(empRecord){
   const totalWages = wagesOnDatesWorked.reduce(((total, earning) => total + earning), 0)
     return totalWages
 }
+

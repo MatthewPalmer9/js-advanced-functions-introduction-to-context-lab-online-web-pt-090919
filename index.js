@@ -1,4 +1,3 @@
 // Your code here
-function createEmployeeRecord(firstName, familyName, title, payPerHour){
-  
+function createEmployeeRecord([firstName, familyName, title, payPerHour]){
 }

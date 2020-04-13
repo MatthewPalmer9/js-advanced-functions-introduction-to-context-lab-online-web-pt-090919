@@ -23,3 +23,5 @@ function createTimeInEvent(record, date){
   record.timeInEvents.push(timeInEvent)
   return record
 }
+
+function createTimeOutEvent

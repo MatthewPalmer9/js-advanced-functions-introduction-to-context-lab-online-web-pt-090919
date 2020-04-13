@@ -47,4 +47,6 @@ function wagesEarnedOnDate(empRecord, date){
   return payOwed
 }
 
-function allWagesFor(empRecord)
+function allWagesFor(empRecord){
+  
+}

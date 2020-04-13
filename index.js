@@ -35,5 +35,5 @@ function createTimeOutEvent(record, date){
 }
 
 function hoursWorkedOnDate(empRecord, date){
-  
+  const timeIn = empRecord.
 }

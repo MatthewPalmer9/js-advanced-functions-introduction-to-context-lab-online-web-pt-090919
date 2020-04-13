@@ -15,5 +15,7 @@ function createEmployeeRecords(info){
 }
 
 function createTimeInEvent(){
-  
+  let timeInEvent = {
+    type: 
+  }
 }

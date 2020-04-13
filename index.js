@@ -34,4 +34,4 @@ function createTimeOutEvent(record, date){
   return record
 }
 
-function hoursWorkedOnDate
+function hoursWorkedOnDate(empRecord)

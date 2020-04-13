@@ -33,3 +33,4 @@ function createTimeOutEvent(record, date){
   record.timeOutEvents.push(timeOutEvent)
   return record
 }
+

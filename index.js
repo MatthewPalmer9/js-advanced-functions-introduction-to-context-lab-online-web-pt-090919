@@ -40,3 +40,5 @@ function hoursWorkedOnDate(empRecord, date){
   const hoursWorked = (timeOut.hour - timeIn.hour) / 100
   return hoursWorked
 }
+
+function wagesEarnedOnDate(empRecord, date)

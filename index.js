@@ -35,5 +35,5 @@ function createTimeOutEvent(record, date){
 }
 
 function hoursWorkedOnDate(empRecord, date){
-  const timeIn = empRecord.timeInEvents.find(e => e.hour)
+  const timeIn = empRecord.timeInEvents.find(e => e.date === )
 }

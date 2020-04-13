@@ -57,3 +57,8 @@ function allWagesFor(empRecord){
 function findEmployeeByFirstName(employeeRecords, firstName) {
     return employeeRecords.find(record => record.firstName === firstName)
 }
+
+function calculatePayroll(employeeRecords) {
+    const totalPay = employeeRecords.reduce(((total, record) => total + allWagesFor(record)), 0)
+    return totalPay
+}

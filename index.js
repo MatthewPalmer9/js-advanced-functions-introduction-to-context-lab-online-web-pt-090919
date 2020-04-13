@@ -14,7 +14,7 @@ function createEmployeeRecords(info){
   return info.map(createEmployeeRecord)
 }
 
-function createTimeInEvent(){
+function createTimeInEvent(record, date){
   let timeInEvent = {
     type: "TimeIn",
     date: date.split(" ")[0]

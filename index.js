@@ -7,4 +7,5 @@ function createEmployeeRecord([firstName, familyName, title, payPerHour]){
     "payPerHour": payPerHour,
     "timeInEvents": [],
     "timeOutEvents": []
+  }
 }

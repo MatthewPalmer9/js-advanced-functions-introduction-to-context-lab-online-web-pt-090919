@@ -21,4 +21,5 @@ function createTimeInEvent(record, date){
     hour: parseInt(date.split(" ")[1])
   }
   record.timeInEvents.push(timeInEvent)
+  return record
 }
